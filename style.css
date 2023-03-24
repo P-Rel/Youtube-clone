@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto" sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+}
+main {
+  height: calc(100vh-70px);
+  display: flex;
+  background-color: #f9f9f9;
+}
+.side-bar {
+  height: 100%;
+  width: 17%;
+  background-color: white;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.left img {
+  width: 9%;
+}
+
+.left #menu {
+  padding: 0 7px;
+  cursor: pointer;
+  margin-inline-start: -30px;
+}
+
+.search {
+  display: flex;
+}
+
+.search form {
+  display: flex;
+  border: 1px solid #ddd;
+  height: 40px;
+}
+.search input {
+  width: 600px;
+  margin-left: -730px;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  border-radius: 25px 0px 0px 25px;
+}
+input:hover {
+  outline: none;
+}
+.search button {
+  width: 63px;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  height: auto;
+}
+.mic {
+  padding-inline: 0px;
+  align-self: center;
+  margin-left: -53px;
+}
+.material-icons {
+  color: #0f0f0f;
+  padding: 0 7px;
+  cursor: pointer;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+.nav-link span {
+  margin-left: 15px;
+  text-decoration: none;
+  margin-top: 4px;
+  color: #0f0f0f;
+}
+.nav-link:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+hr {
+  height: 1px;
+  background-color: #e5e5e5;
+  border: none;
+}
+.content {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+}
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video {
+  width: 270px;
+  margin-bottom: 30px;
+}
+.thumbnail {
+  width: 100%;
+  height: 170px;
+}
+.thumbnail img {
+  height: 94%;
+  width: 100%;
+}
+.author img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.details {
+  display: flex;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.title h3 {
+  color: rgb(3, 3, 3);
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.title a,
+span {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
